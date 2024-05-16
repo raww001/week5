@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 10px;
+}
+body{
+    font-family: 'roboto slab', serif;
+}
+a{
+    text-decoration: none;
+}
+ul,ol{
+    list-style-type: none;
+}
+header{
+    background: #333;
+    color: #f4f4f4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 6rem;
+}
+.logo h1{
+     font-size: 4rem;
+     font-weight: 600;
+}
+nav a{
+    color: #f4f4f4;
+    font-size: 1.8rem;
+}
+ul{
+    display: flex;
+    gap: 2rem;
+}
+.raww{
+    height: calc(100vh - 90px);
+    background: url(./img5.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+span{
+    color: coral;
+}
+.raww h2{
+    font-size: 4rem;
+    font-weight: 800;
+}
+.raww p{
+    font-size: 1.5rem;
+    text-align: center;
+    color: aliceblue;
+    font-weight: 500;
+    width: 45%;
+
+}
+/*.raww::after{
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background: ;
+}*/
+section a{
+    background-color: gray;
+    color: white;
+    padding: 1rem 1rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+    margin-top: 2%;
+    border-radius: 5px;
+    transition: all .5s;
+}
+section a:hover{
+    background-color: coral;
+    color: #333;
+}
+.rw{
+    width: ;
+}
+.rw2{
+    width: 200px;
+    height: 150px;
+    background-color: black;
+    text-align: center;
+}
+.rw2 p{
+    color: #f4f4f4;
+}
+.rw2 a{
+    margin: 50%;
+}
+/* li{
+    display: inline-block;
+}*/
