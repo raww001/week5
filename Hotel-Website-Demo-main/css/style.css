@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;600;700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Roboto Slab', serif;
+}
+
+header{
+  width: 100%;
+  height: 100vh;
+}
+
+/* NavBar Styling */
+nav{
+  background-color: #333; /* red green blue  color range is 0 - 256 */
+  color: #fff;
+  padding: 30px 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+}
+.openMenu, .closeMenu{
+  display: none;
+}
+.logo h2{
+  font-size: 30px;
+}
+nav ul{
+  display: flex;
+  gap: 50px;
+  list-style: none;
+}
+nav li{
+  display: inline-block;
+}
+nav li a{
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 100;
+}
+
+/* HERO SECTION STYLING */
+#hero{
+  height: 85vh;
+  background: url('../images/showcase.jpg') no-repeat center center/cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+.specialText{
+  color: #f7c08a;
+}
+#hero h1{
+  font-size: 60px;
+  margin-bottom: 18px;
+}
+#hero p{
+  font-size: 18px;
+  width: 45%;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.btn{
+  color: #fff;
+  text-decoration: none;
+  padding: 15px 25px;
+  font-weight: 400;
+  background: #333;
+  transition: all 1;
+}
+.btn:hover, .btn.bg-white:hover{
+  color: #333;
+  background: #f7c08a;
+}
+
+/* HISTORY SECTION */
+#history{
+  height: 450px;
+  display: flex;
+}
+#historyImgContainer{
+  width: 50%;
+  background: url('../images/photo-1.jpg') no-repeat;
+}
+#historyTextContainer{
+  width: 50%;
+  background: #333;
+  color: #fff;
+  padding: 60px 40px;
+}
+#historyTextContainer h3{
+  font-size: 30px;
+  text-transform: capitalize;
+  text-align: center;
+}
+#historyTextContainer p{
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  line-height: 1.8;
+}
+#historyTextContainer div{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn.bg-white{
+  background-color: #fff;
+  color: #333;
+}
+
+/* FEATURES SECTION */
+#features{
+  display: flex;
+}
+.box{
+  width: 33%;
+  padding: 50px;
+  text-align: center;
+}
+.box h4{
+  font-size: 20px;
+}
+.box.bg-orange{
+  background: #f7c08a;
+}
+.box i{
+  margin-bottom: 10px;
+}
+.iconText{
+  margin-bottom: 20px;
+}
+
+/* FOOTER SECTION */
+footer{
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #333;
+  color: #fff;
+}
+
+
+/* ABOUT PAGE STYLING */
+#about-section{
+  background-color: #f4f4f4;
+  display: flex;
+  gap: 60px;
+  padding: 30px 60px;
+}
+#about-text{
+  /* flex: 1; */
+  width: 50%;
+}
+#about-text h3{
+  font-size: 35px;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+#about-text p{
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+#about-image{
+  width: 50%;
+}
+#about-image .image-container{
+  height: 250px;
+  width: 60%;
+}
+.image-container img{
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+/* TESTIMONIAL SECTION */
+#testimonial-section{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 60px;
+  background: url(../images/test-bg.jpg) no-repeat center center/cover;
+}
+#testimonial-section h3{
+  color: #fff;
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+.testimonial{
+  height: 150px;
+  background-color: #f7c08a;
+  display: flex;
+  align-items: center;
+  padding: 5px 30px;
+  gap: 10px;
+  margin-bottom: 50px;
+  border-radius: 5px;
+}
+.testimonial img{
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+.testimonial p{
+  line-height: 1.8;
+  color: #333;
+}
+
+
+/* CONTACT PAGE STYLING */
+#contact-form{
+  padding: 30px 60px;
+}
+#contact-form h3{
+  font-size: 35px;
+  margin-bottom: 25px;
+}
+
+form{
+  margin-top: 20px;
+}
+.input-control{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-bottom: 25px;
+}
+.input-control input, .input-control textarea{
+  width: 100%;
+  padding: 10px 25px;
+  font-size: 16px;
+  border: 1px solid #f4f4f4;
+  border-radius: 5px;
+}
+.input-control input:focus{
+  border-color: #f7c08a;
+  outline: none;
+}
+.input-control textarea{
+  height: 200px;
+}
+
+form button{
+  color: #fff;
+  text-decoration: none;
+  padding: 15px 25px;
+  font-weight: 400;
+  background: #333;
+  transition: all 0.3s;
+  font-size: 18px;
+  border: none;
+}
+form button:hover{
+  color: #333;
+  background: #f7c08a;
+}

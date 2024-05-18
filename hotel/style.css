@@ -3,7 +3,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    overflow-x: hidden;
 }
+
 html{
     font-size: 10px;
 }
@@ -85,20 +87,109 @@ section a:hover{
     background-color: coral;
     color: #333;
 }
-.rw{
-    width: ;
+.rw {
+    height: 500px;
+    width: 50%;
+    background: url(./img1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.History{
+    margin-top: 30px;
+    height: 500px;
+    display: flex;
 }
 .rw2{
-    width: 200px;
-    height: 150px;
-    background-color: black;
     text-align: center;
+    width: 50%;
+  background: black;
+  color: #fff;
+  padding: 90px 60px;
+  text-transform: capitalize;
 }
-.rw2 p{
-    color: #f4f4f4;
+.rw2 h3{
+    font-weight: bold;
+    font-size: 30px;
+}
+.rw2 p{ 
+    line-height: 1.8;
+    font-size: 15px;
+    margin-top: 3px;
+    margin-bottom: 80px;
 }
 .rw2 a{
-    margin: 50%;
+    background-color: white;
+    color: black;
+}
+.icons{
+    display: flex;
+}
+.location{
+    height: 220px;
+    width: 33.3%;
+    padding: 30px;
+    background: white;
+    text-align: center;
+}
+.location h4{
+    margin-bottom: 10px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.location i{
+    font-size: 50px;
+    text-align: center;
+}
+.location p{
+    font-size: medium;
+}
+
+.meals{
+    height: 220px;
+    width: 33.3%;
+    padding: 30px;
+    background: coral;
+    text-align: center;
+}
+.meals h4{
+    margin-bottom: 10px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.meals i{
+    font-size: 50px;
+    text-align: center;
+}
+.meals p{
+    font-size: medium;
+}
+
+.fitness{
+    height: 220px;
+    width: 33.3%;
+    padding: 30px;
+    background: white;
+    text-align: center;
+}
+.fitness h4{
+    margin-bottom: 10px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.fitness i{
+    font-size: 50px;
+    text-align: center;
+}
+.fitness p{
+    font-size: medium;
+}
+footer{
+    height: 60px;
+    text-align: center;
+    background: black;
+    color: #f4f4f4;
+    line-height: 60px;
 }
 /* li{
     display: inline-block;
