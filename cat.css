@@ -37,3 +37,11 @@
     color: azure;
     font-family: 'Times New Roman', Times, serif;
 }
+
+@media screen and (max-width: 520px) {
+    .ct1{
+        padding: 0px;
+        width: 95%;
+        margin: 5rem auto;
+    }
+}
