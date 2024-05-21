@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+html{
+    font-size: 10px;
+}
+body{
+    font-family: 'roboto slab', serif;
+}
+a{
+    text-decoration: none;
+}
+ul,ol{
+    list-style-type: none;
+}
+header{
+    background: #333;
+    color: #f4f4f4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 6rem;
+}
+.logo h1{
+     font-size: 4rem;
+     font-weight: 600;
+}
+nav a{
+    color: #f4f4f4;
+    font-size: 1.8rem;
+}
+ul{
+    display: flex;
+    gap: 2rem;
+}
+.raww{
+    height: calc(100vh - 90px);
+    background: url(./img5.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+span{
+    color: coral;
+}
+.raww h2{
+    font-size: 4rem;
+    font-weight: 800;
+}
+.raww p{
+    font-size: 1.5rem;
+    text-align: center;
+    color: aliceblue;
+    font-weight: 500;
+    width: 45%;
+
+}
+/*.raww::after{
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background: ;
+}*/
+section a{
+    background-color: gray;
+    color: white;
+    padding: 1rem 1rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+    margin-top: 2%;
+    border-radius: 5px;
+    transition: all .5s;
+}
+section a:hover{
+    background-color: coral;
+    color: #333;
+}
+.rw {
+    height: 500px;
+    width: 50%;
+    background: url(./img1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.History{
+    margin-top: 30px;
+    height: 500px;
+    display: flex;
+}
+.rw2{
+    text-align: center;
+    width: 50%;
+  background: black;
+  color: #fff;
+  padding: 90px 60px;
+  text-transform: capitalize;
+}
+.rw2 h3{
+    font-weight: bold;
+    font-size: 30px;
+}
+.rw2 p{ 
+    line-height: 1.8;
+    font-size: 15px;
+    margin-top: 3px;
+    margin-bottom: 80px;
+}
+.rw2 a{
+    background-color: white;
+    color: black;
+}
+.icons{
+    display: flex;
+}
+.location{
+    height: 220px;
+    width: 33.3%;
+    padding: 30px;
+    background: white;
+    text-align: center;
+}
+.location h4{
+    margin-bottom: 10px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.location i{
+    font-size: 50px;
+    text-align: center;
+}
+.location p{
+    font-size: medium;
+}
+
+.meals{
+    height: 220px;
+    width: 33.3%;
+    padding: 30px;
+    background: coral;
+    text-align: center;
+}
+.meals h4{
+    margin-bottom: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    
+}
+.meals i{
+    font-size: 50px;
+    text-align: center;
+}
+.meals p{
+    font-size: medium;
+}
+
+.fitness{
+    height: 220px;
+    width: 33.3%;
+    padding: 30px;
+    background: white;
+    text-align: center;
+}
+.fitness h4{
+    margin-bottom: 10px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.fitness i{
+    font-size: 50px;
+    text-align: center;
+}
+.fitness p{
+    font-size: medium;
+}
+footer{
+    height: 60px;
+    text-align: center;
+    background: black;
+    color: #f4f4f4;
+    line-height: 60px;
+}
+/* li{
+    display: inline-block;
+}*/
