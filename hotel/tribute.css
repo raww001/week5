@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    width: 100%;
+    padding: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+
+.trit {
+    padding: 20px;
+    display: flex;
+}
+
+.Tribute {
+    background-color: rgb(129, 136, 136);
+}
+
+.Tribute p {
+    margin-left: 39%;
+}
+
+.Tribute h1 {
+    margin-left: 5%;
+    background-color: beige;
+    font-family: "great vibes", cursive;
+    text-align: center;
+    color: rgba(29, 27, 27, 0.5);
+    font-size: 4vw;
+    font-weight: 700;
+    width: 90%;
+}
+.txt {
+    color: rgba(10, 1, 1, 0.79);
+    font-size: 2vw;
+    font-weight: 700;
+}
+
+.Tribute img {
+    margin-left: 5%;
+    width: 90%
+}
+
+.words {
+    background-color: rgb(129, 136, 136);
+    display: flex;
+    flex-direction: column;
+}
+.words p {
+    padding-top: 20px;
+    padding-bottom: 50px;
+    text-align: center;
+    font-size: 4vw;
+    font-weight: bold;
+}
+
+.words h2 {
+    font-family: "great vibes", cursive;
+    font-size: 6.5rem;
+    font-weight: lighter;
+    text-align: center;
+}
+
+@media screen and (max-width: 520px) {
+    .trit {
+        padding: 0;
+        width: 100%;
+        margin: 2rem auto;
+    }
+    .Tribute h1 {
+        width: 100%;
+    }
+    .Tribute img {
+        width: 100%;
+    }
+    .words p {
+        font-size: 20px;
+    }
+    .words h2{
+        font-size: 15px;
+    }
+}
